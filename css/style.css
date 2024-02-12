@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:visited {
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    text-decoration:underline;
+}
+body {
+    background-color: rgb(32, 33, 36);
+}
+.header {
+    height: 48px;
+    display: flex;
+    padding: 6px;
+    justify-content: right;
+}
+.gmail, .images, .apps, .account {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gmail, .images {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.gmail {
+    margin-left: 15px;
+}
+.images {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.apps img{
+    filter: invert(100);
+    width: 30px;
+    height: 30px;
+}
+.account img{
+    height: 33px;
+    width: 33px;
+    border-radius: 17px;
+    object-fit: cover;
+}
+.logo img {
+    width: 275px;
+    height: 92px;
+    object-fit: cover;
+}
+.logo {
+    display: flex;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    height: 120px;
+    padding: 20px;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.search {
+    width: 582px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 1px solid rgb(95, 99, 104);
+    padding: 5px 8px 0px 14px;
+}
+#img_search img {
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    padding-right:13px;
+}
+.keyboard img {
+    height: 12px;
+    width: 25px;
+    object-fit: cover;
+    filter: invert(100);
+}
+.microphone img{
+    height: 21px;
+    width: 15px;
+    object-fit: cover;
+}
+.camera img {
+    width: 19px;
+    height: 19px;
+    object-fit: cover;
+}
+.keyboard,.microphone,.camera {
+    width: 40px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px 0px 8px;
+
+}
+textarea {
+    background-color: inherit;
+    border: none;
+    resize: none;
+    width: 403px;
+    height: 27px;
+    vertical-align: middle;
+    line-height: 27px;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+textarea:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    display: flex;
+    vertical-align: middle;
+} 
+.button {
+    display: flex;
+    padding: 18px 0px 0px;
+}
+.button1, .button2 {
+    width: 132px;
+    height: 37px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    background-color: rgb(48, 49, 52);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.empty {
+    height: 165px;
+}
+.country {
+    height: 17px;
+    background-color: rgb(23, 23, 23);
+    border-bottom: 1px solid #3c4043;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    padding: 15px 30px;
+}
+.information{
+    height: 46px;
+    display: flex;
+    background-color: rgb(23, 23, 23);
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.information1, .information2 {
+    display: flex;
+    padding: 0px 20px;
+}
+.details_information {
+    padding: 15px;
+}
+@media  (min-width:320px) {
+    .logo img{
+        width: 179px;
+        height: 60px;
+        object-fit: cover;
+    }
+    .logo {
+        margin-top: 20px;
+    }
+    .search {
+        width: 250px;
+        height: 95px;
+    }
+    nav {
+        margin-top: 20px;
+    }
+    .button1, .button2 {
+        width: 68px;
+        height: 30px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .information {
+        display: flex;
+        flex-direction: column;
+        height: 85px;
+        padding: 0px 5px 0px 5px;
+        font-size: 13px;
+    }
+    .information1,.information2 {
+        margin: 0;
+    }
+    .empty {
+        height: 138px;
+    }
+    .country {
+        height: 17px;
+        padding: 5px 30px;
+    }
+    .details_information {
+        padding: 7px;
+        text-align: center;
+    }
+}
+
+@media  (min-width:480px) {
+    .logo img{
+        width: 250px;
+        height: 82px;
+        object-fit: cover;
+    }
+    .logo {
+        margin-top: 20px;
+    }
+    .search {
+        width: 350px;
+        height: 95px;
+    }
+    nav {
+        margin-top: 20px;
+    }
+    .button1, .button2 {
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .information {
+        display: flex;
+        flex-direction: column;
+        height: 65px;
+        padding: 0px 5px 0px 5px;
+        font-size: 15px;
+    }
+    .information1,.information2 {
+        margin: 0;
+    }
+    .empty {
+        height: 160px;
+    }
+    .country {
+        height: 17px;
+        padding: 5px 30px;
+    }
+    .details_information {
+        padding: 7px;
+        text-align: center;
+    }
+}
+@media  (min-width:760px) {
+    .logo img{
+        width: 250px;
+        height: 82px;
+        object-fit: cover;
+    }
+    .logo {
+        margin-top: 30px;
+    }
+    .search {
+        width: 350px;
+        height: 95px;
+    }
+    nav {
+        margin-top: 20px;
+    }
+    .button1, .button2 {
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .information {
+        display: flex;
+        flex-direction: row;
+        height: 48px;
+        padding: 0px 5px 0px 5px;
+        font-size: 15px;
+    }
+    .information1,.information2 {
+        margin: 0;
+    }
+    .empty {
+        height: 160px;
+    }
+    .country {
+        height: 17px;
+        padding: 10px 30px;
+    }
+    .details_information {
+        padding: 7px;
+        text-align: center;
+    }
+}
