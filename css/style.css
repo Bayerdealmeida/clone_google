@@ -136,8 +136,8 @@ textarea:focus, select:focus {
     padding: 18px 0px 0px;
 }
 .button1, .button2 {
-    width: 132px;
-    height: 37px;
+    width: 137px;
+    height: 40px;
     margin: 11px 4px;
     padding: 0px 16px;
     background-color: rgb(48, 49, 52);
@@ -242,8 +242,8 @@ textarea:focus, select:focus {
         margin-top: 20px;
     }
     .button1, .button2 {
-        width: 100px;
-        height: 35px;
+        width: 115px;
+        height: 37px;
         font-size: 14px;
         display: flex;
         justify-content: center;
@@ -289,8 +289,8 @@ textarea:focus, select:focus {
         margin-top: 20px;
     }
     .button1, .button2 {
-        width: 100px;
-        height: 35px;
+        width: 115px;
+        height: 37px;
         font-size: 14px;
         display: flex;
         justify-content: center;
